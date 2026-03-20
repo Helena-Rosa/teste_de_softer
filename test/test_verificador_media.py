@@ -4,9 +4,7 @@ from escola import verificador_media
 def test_verificar_aprovado():
     """Teste basico"""
     assert verificador_media (8) == "Aprovado"
-
-
-
+    
 def test_verificar_reprovado():
     """Teste basico"""
     assert verificador_media (4) == "Reprovado"
